@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="1.318">
+<testcase classname="Sauce Labs Login Page" name="Valid Login" time="0.71">
+<system-out><![CDATA[Given I am on the login page................................................passed
+When I enter valid username.................................................passed
+And I enter valid password..................................................passed
+And I click on the login button.............................................passed
+Then I see the home page....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sauce Labs Login Page" name="Invalid Login" time="0.018">
+<system-out><![CDATA[Given I am on the login page................................................passed
+When I enter invalid username...............................................passed
+And I enter invalid password................................................passed
+And I click on the login button.............................................passed
+Then I see the error message................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
